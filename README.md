@@ -11,6 +11,8 @@ The combined angular softmax can be written as:
 
 ![image](https://github.com/Jianfeng1991/GRCNN-for-Face/blob/master/combined_loss.PNG)
 
+where the s denotes scale factor, m1 and m2 are angular marigin and n is the number of images in a single batch.
+
 # Train a new model
 1. Preparing for the datasets: 
 All of images for a identity should put in one directory, and the images should be preprocessed by MTCNN. The preprocessing script can be found at process_data.sh.
