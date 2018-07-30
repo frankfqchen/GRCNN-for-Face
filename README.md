@@ -9,7 +9,7 @@ This project is an application of GRCNN for face recognition. For details of GRC
 The combined augular softmax introduces the augular margin in cosine theta and adds substract another margin outside the cosine theta.
 The combined angular softmax can be written as:
 
-<div align=center><img src="https://github.com/Jianfeng1991/GRCNN-for-Face/blob/master/combined_loss.PNG" width="450" height="160" ></div>
+<div align=center><img src="https://github.com/Jianfeng1991/GRCNN-for-Face/blob/master/combined_loss.PNG" width="450" height="120" ></div>
 
 where the s denotes scale factor, m1 and m2 are angular marigin and n is the number of images in a single batch.
 
